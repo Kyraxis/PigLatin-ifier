@@ -1,4 +1,5 @@
 # Specific uses in Pig-Latin
+#SOMEONE CHECK THIS FILE
 def t(str):
     #Returns the 2 letters added together to check against
     return str[0]+str[1]
