@@ -62,7 +62,6 @@ sentence = input('Type what you would like translated into pig-latin and press E
 # sentence.split() converts the sentence into a list per word
 
 # Let's print this thing
-new_sentence = parse_sentence(sentence)
+new_sentence = parse_sentence(sentence.lower())
 print("Original Sentence: " + sentence.capitalize())
 print("Pig Latin-ified: " + new_sentence.capitalize())
-
